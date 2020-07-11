@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmation Mail</title>
+    <style>
+        .content {
+            margin: 10px;
+            background-color: #181b22;
+            color: white;
+        }
+
+        .code {
+            background: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+
+    Dear {{user}}, <br><br>
+
+    Thank you for registering with Chimera-X. <br>
+
+    To complete the process of registration, use the following code: <br>
+    <span class="code">{{code}}</span>
+</div>
+
+</body>
+</html>

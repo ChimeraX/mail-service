@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmation Mail</title>
+    <style>
+        .content {
+            margin: 10px;
+            background-color: #181b22;
+            color: white;
+        }
+
+        .code {
+            background: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+
+    Dear {{user}}, <br><br>
+
+    Someone is trying to login into your account, with correct credentials. <br>
+    If this is you, copy the code from below and use it to finish the login.
+
+    If not, just ignore it.
+
+    Your code is: <br>
+    <span class="code">{{code}}</span>
+</div>
+
+</body>
+</html>
